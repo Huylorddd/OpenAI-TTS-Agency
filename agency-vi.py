@@ -5,7 +5,7 @@ import pygame
 
 
 client = OpenAI(
-    api_key=" OPENAI KEY "    <<---- Insert your key here.
+    api_key=" API KEY "  <<<< INSERT YOUR API KEY HERE. 
 )
 
 robot_ear = speech_recognition.Recognizer()
@@ -55,10 +55,16 @@ while True:
     )
     with open("voice.mp3", "wb") as file:
       file.write(audio_response.content)
+    pygame.mixer.init()
+    try:
+        
+        pygame.mixer.music.load("voice.mp3")
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            continue
 
-    pygame.mixer.music.load("voice.mp3")
-    pygame.mixer.music.play()
-    while pygame.mixer.music.get_busy():
-        continue
-
-
+    finally:
+        pygame.mixer.music.stop()
+        pygame.mixer.quit()
+    
+    
