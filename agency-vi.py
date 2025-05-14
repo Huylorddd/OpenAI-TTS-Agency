@@ -48,11 +48,11 @@ while True:
     #tts.save("voice.mp3")
 
   ###### PAID CHOICE: OpenAI gen voice.
-    audio_response = client.audio.speech.create{
+    audio_response = client.audio.speech.create(
       model="tts-1",
       voice="nova", #shimmer, echo, alloy
       input=robot_brain
-    }
+    )
     with open("voice.mp3", "wb") as file:
       file.write(audio_response.content)
 
