@@ -14,7 +14,7 @@ pygame.mixer.init()
 
 while True:
     with speech_recognition.Microphone() as mic:
-        print("Robot: Tôi đang nghenghe...")
+        print("Robot: Tôi đang nghe...")
         audio = robot_ear.listen(mic)
         print("Robot: ...")
 
