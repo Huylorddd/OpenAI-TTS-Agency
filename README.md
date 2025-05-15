@@ -9,9 +9,9 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
  > These scripts are the same except for the language, choose whichever is more convenient for you.
 
 ## REQUIREMENT 🛠️
- **╰┈➤ Windows 10/11, MacOS, LinuxOS.**\n
- **╰┈➤ Visual Code Studio (or equivalent IDE).**\n
- **╰┈➤ Python & PIP packages.**\n
+ **╰┈➤ Windows 10/11, MacOS, LinuxOS.**
+ **╰┈➤ Visual Code Studio (or equivalent IDE).**
+ **╰┈➤ Python & PIP packages.**
 
 ## INSTALLATION STEPS ⭐
 ### STEP 1: Visual Code Studio 💻
@@ -82,7 +82,15 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
   1. Install **'agency.py'** (en-US/vi-VN based on your convenient) to prepared folder that we've made before or copy/paste to your **py file**.
   2. In the code, we need to check & adjust a little bit:
 
-     ➤ 
+     **➤ API KEY:** This key is provided by openAI to run the fully functional API
+     
+      ![image](https://github.com/user-attachments/assets/2c4d61b9-2f95-41b9-8dc1-bbd0d51374de)
+
+     **➤ MODELS & SYSTEM.CONTENT:**
+          **• Models:** choose the model that's suitable for your tasks. checkout: https://openai.com/api/pricing/
+               > for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"
+          **• System.content:** 
+
 
 
 
