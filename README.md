@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b0ec4791-3da0-4e3b-ba96-0be8d973caaf)# OpenAI Virtual Voice Assistant
+# OpenAI Virtual Voice Assistant
 My template about OpenAI Agency with Text to speech based on gTTS/OpenAI-TTS.
 
 ![image](https://github.com/user-attachments/assets/c1710208-d6b3-4add-bcf1-24cc749222cb)
