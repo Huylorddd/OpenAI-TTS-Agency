@@ -22,6 +22,7 @@ while True:
         prompt = robot_ear.recognize_google(audio, language="vi-VN")
     except:
         prompt = "Tôi không nghe thấy gì. Vui lòng thử lại."
+        continue
 
     print("You: " + prompt)
 
