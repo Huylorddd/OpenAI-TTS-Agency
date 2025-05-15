@@ -9,9 +9,9 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
  > These scripts are the same except for the language, choose whichever is more convenient for you.
 
 ## REQUIREMENT 🛠️
-╰┈➤ Windows 10/11, MacOS, LinuxOS.
-╰┈➤ Visual Code Studio (or equivalent IDE).
-╰┈➤ Python & PIP packages.
+ **╰┈➤ Windows 10/11, MacOS, LinuxOS.**
+ **╰┈➤ Visual Code Studio (or equivalent IDE).**
+ **╰┈➤ Python & PIP packages.**
 
 ## INSTALLATION STEPS ⭐
 ### STEP 1: Visual Code Studio 💻
