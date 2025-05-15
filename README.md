@@ -9,9 +9,9 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
  > These scripts are the same except for the language, choose whichever is more convenient for you.
 
 ## REQUIREMENT 🛠️
-**╰┈➤ Windows 10/11, MacOS, LinuxOS.** 
-**╰┈➤ Visual Code Studio (or equivalent IDE).** 
-**╰┈➤ Python & PIP packages.** 
+╰┈➤ Windows 10/11, MacOS, LinuxOS.
+╰┈➤ Visual Code Studio (or equivalent IDE).
+╰┈➤ Python & PIP packages.
 
 ## INSTALLATION STEPS ⭐
 ### STEP 1: Visual Code Studio 💻
@@ -45,6 +45,8 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
       ![image](https://github.com/user-attachments/assets/abef777d-456b-45b5-9a7c-92ea925aa2ce)
 
 
+
+
 ### STEP 2: Python and PIP packages 🐍
   1. Download **Python** directly from the mainpage. src: https://www.python.org/downloads/
   2. Open the downloaded file and complete the setup to start installing.
@@ -73,8 +75,14 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
 
   6. **Reboot** your computer.
 
+
+
+
 ### STEP 3: Install Virtual Voice Assistant 🤖
-     
+  1. Install **'agency.py'** (en-US/vi-VN based on your convenient) to prepared folder that we've made before or copy/paste to your **py file**.
+  2. In the code, we need to check & adjust a little bit:
+
+     ➤ 
 
 
 
