@@ -88,7 +88,7 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
 
      **➤ MODELS & SYSTEM.CONTENT:**
           **• Models:** choose the model that's suitable for your tasks. checkout: https://openai.com/api/pricing/
-          > for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"
+            'for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"'
           **• System.content:** 
 
 
