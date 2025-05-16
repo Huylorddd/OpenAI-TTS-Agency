@@ -35,7 +35,7 @@ while True:
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7
-            #max_tokens=100 <<< you can limit the using token by adjust the value and add a comma in the previous line.
+            #max_tokens=100 <<< you can limit the using token by adjust the value and add a comma in the previous line. (NOT RECOMMENDED, the sentence maybe stop suddenly)
         )
         robot_brain = completion.choices[0].message.content
 
