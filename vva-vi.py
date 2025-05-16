@@ -34,8 +34,8 @@ while True:
                 {"role": "system", "content": "Như một người trợ lí tận tâm, hãy đưa ra giải pháp nhanh và hiệu quả"},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7,
-            max_tokens=100
+            temperature=0.7
+            #max_tokens=100  <<<< điều chỉnh giá trị này để giới hạn token sử dụng, nhớ thêm dấu phẩy ở dòng trước. (token càng ít đoạn chat sẽ ít hoặc bị ngắt giữ chừng)
         )
         robot_brain = completion.choices[0].message.content
 
