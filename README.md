@@ -1,4 +1,4 @@
-# OpenAI Virtual Voice Assistant
+![image](https://github.com/user-attachments/assets/9b86a2fd-42d9-487b-b992-8d15576f56e3)# OpenAI Virtual Voice Assistant 🔊
 My template about OpenAI Agency with Text to speech based on gTTS/OpenAI-TTS.
 
 ![image](https://github.com/user-attachments/assets/c1710208-d6b3-4add-bcf1-24cc749222cb)
@@ -82,17 +82,76 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
   1. Install **'agency.py'** (en-US/vi-VN based on your convenient) to prepared folder that we've made before or copy/paste to your **py file**.
   2. In the code, we need to check & adjust a little bit:
 
-     **➤ API KEY:** This key is provided by openAI to run the fully functional API
+     **➤ API KEY:** This key is provided by openAI to run the fully functional API. Otherwise, nothing happens.
      
       ![image](https://github.com/user-attachments/assets/2c4d61b9-2f95-41b9-8dc1-bbd0d51374de)
 
      **➤ MODELS & SYSTEM.CONTENT:**
-          **• Models:** choose the model that's suitable for your tasks. checkout: https://openai.com/api/pricing/
-            'for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"'
-          **• System.content:** 
+          - **Models:** choose the model that's suitable for your tasks. **Higher price the more different**. Checkout: https://openai.com/api/pricing/
+              > for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"
+     
+          - **System.content:** adjust this field to change personality & performance for your assistant.
+              > for example: if you want your assistant girly -> "as a helpful and cute girl, help me come up with quick and effective solutions"
+
+      ![image](https://github.com/user-attachments/assets/ee1b7af3-a962-4746-8720-bdcb3268d227)
+
+     **➤ VOICES:** options for your assitant's voice. Need to set your "#" like the image below if you want to use OpenAI gen voice and vice versa.
+          - **FREE TEXT-TO-SPEECH:** this choice is using **Google Translate** voice, fast and no cost.
+          - **COST TEXT-TO-SPEECH:** using **OpenAI** gen voice, natural and smooth talk. You can also change the model and type of voice if you want to.
+
+      ![image](https://github.com/user-attachments/assets/95f59554-c7bc-493e-b4ef-9fa4c62e8d13)
+
+     ## ATTENTION ⚠️
+     If you're using **gpt-4.1-nano** or the older versions, the assistant is **dumber** and **too much mechanical**, the voice **cracks often** than the new one.
+
+     ## GET OPENAI API KEY 🔑
+     1. Go to mainpage OpenAI and login/sign up your account. src: https://openai.com/api/
+    
+        ![image](https://github.com/user-attachments/assets/ec93ab29-31c5-4626-9a74-669a3b1cbeec)
+
+     2. Create a **project** for your purpose
+    
+        ![image](https://github.com/user-attachments/assets/ff514af3-c2cd-4049-bc79-aa8644adfe44)
+        
+     3. Create **a or more**(if you want to) new **secret/api keys**
+
+        ![image](https://github.com/user-attachments/assets/1fefef63-2d8a-47bd-b568-a8eb064b660d)
+
+     4. A table will show and you need to fill the name field and choose your project that we've just created.
+    
+        ![image](https://github.com/user-attachments/assets/3a36fca1-d850-404d-9f16-25664c22890a)
+
+     5. The **API key** will appear and you can copy/paste it to your "**API KEY**" in your code
+    
+        ![image](https://github.com/user-attachments/assets/34e27839-c527-475e-9915-fed8650822a1)
+
+     ## ATTENTION ⚠️
+     You need to **save** your **API key** at safe place and don't let anyone know that as they'll use yours without paying.
+     If someone already knows, you can **revoke** your **API key** and create a **new one**.
+
+       ![image](https://github.com/user-attachments/assets/5f506f47-a1b2-4071-9a8b-6b30e3d5add7)
+
+     ## PAYING TO USE 💵
+     Since the models we're using belong to **OpenAI**, so you need to have balance in your account to keep using the API.
+     Don't worry! You can choose the model that suits your budget.
+
+       ![image](https://github.com/user-attachments/assets/415b2857-0a36-4e27-9f1c-58ed56b86272)
+
+     ###Add payment method and balance to your account
+     1. Move to **Billing** section -> choose **Add payment method** and add your payment.
+     2. Add your amount of balance.
+        > between 5$ and 95$. You can enable auto-recharge for automatically paying when your balance goes empty.
+    
+        ![image](https://github.com/user-attachments/assets/61e3b35a-87c0-493d-8711-b239bffd7df5)
+
+        ![image](https://github.com/user-attachments/assets/e203a60d-7ddd-4158-8516-4a90349f3644)
 
 
 
+
+
+
+     
 
 
 
