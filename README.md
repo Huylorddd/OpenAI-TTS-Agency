@@ -67,17 +67,15 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
       ![image](https://github.com/user-attachments/assets/9a8ea0f8-3b67-47fc-8723-08fe12d3e603)
 
      
-  4. Open **Terminal/Command Prompt** in your computer and run this command to install **PIP**: **curl https //bootstrap.pypa.io/get-pip.py -o get-pip.py**.
+  4. Open **Terminal/Command Prompt** in your computer and run this command to install **PIP**:
+     
+         curl https //bootstrap.pypa.io/get-pip.py -o get-pip.py.
 
-      ![image](https://github.com/user-attachments/assets/338720b9-3cbe-4222-b053-3eae7847cd85)
+  6. Run the **downloaded file**:
+     
+         python get-pip.py
 
-  5. Run the downloaded file: **python get-pip.py**
-
-      ![image](https://github.com/user-attachments/assets/f79d8b05-641f-4980-8d5f-64b739042e64)
-
-  6. **Reboot** your computer.
-
-
+  8. **Reboot** your computer.
 
 
 ### STEP 3: Install Virtual Voice Assistant 🤖
@@ -89,19 +87,22 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
       ![image](https://github.com/user-attachments/assets/2c4d61b9-2f95-41b9-8dc1-bbd0d51374de)
 
      **➤ MODELS & SYSTEM.CONTENT:**
+     
        **Models:** choose the model that's suitable for your tasks. **Higher price the more different**. Checkout: https://openai.com/api/pricing
          
-              > for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"
+        > for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"
      
        **System.content:** adjust this field to change personality & performance for your assistant.
      
-              > for example: if you want your assistant girly -> "as a helpful and cute girl, help me come up with quick and effective solutions"
+        > for example: if you want your assistant girly -> "as a helpful and cute girl, help me come up with quick and effective solutions"
 
       ![image](https://github.com/user-attachments/assets/ee1b7af3-a962-4746-8720-bdcb3268d227)
 
-     **➤ VOICES:** options for your assitant's voice. Need to set your "#" like the image below if you want to use OpenAI gen voice and vice versa. 
-          **FREE TEXT-TO-SPEECH:** this choice is using **Google Translate** voice, fast and no cost.
-          **COST TEXT-TO-SPEECH:** using **OpenAI** gen voice, natural and smooth talk. You can also change the model and type of voice if you want to.
+     **➤ VOICES:** options for your assitant's voice. Need to set your "#" like the image below if you want to use OpenAI gen voice and vice versa.
+
+        -**FREE TEXT-TO-SPEECH:** this choice is using **Google Translate** voice, fast and no cost.
+
+        -**COST TEXT-TO-SPEECH:** using **OpenAI** gen voice, natural and smooth talk. You can also change the model and type of voice if you want to.
     
 
       ![image](https://github.com/user-attachments/assets/95f59554-c7bc-493e-b4ef-9fa4c62e8d13)
@@ -142,7 +143,8 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
 
        ![image](https://github.com/user-attachments/assets/415b2857-0a36-4e27-9f1c-58ed56b86272)
 
-     ###Add payment method and balance to your account
+
+     ### Add payment method and balance to your account
      1. Move to **Billing** section -> choose **Add payment method** and add your payment.
      2. Add your amount of balance.
         > between 5$ and 95$. You can enable auto-recharge for automatically paying when your balance goes empty.
