@@ -145,13 +145,50 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
 
 
      ### Add payment method and balance to your account
-     1. Move to **Billing** section -> choose **Add payment method** and add your payment.
-     2. Add your amount of balance.
+       1. Move to **Billing** section -> choose **Add payment method** and add your payment.
+       2. Add your amount of balance.
         > between 5$ and 95$. You can enable auto-recharge for automatically paying when your balance goes empty.
     
         ![image](https://github.com/user-attachments/assets/61e3b35a-87c0-493d-8711-b239bffd7df5)
 
         ![image](https://github.com/user-attachments/assets/e203a60d-7ddd-4158-8516-4a90349f3644)
+
+
+### Check how many balance you have used for API
+
+**Token:** unit of measure for the amount payable.
+At the **Usage** section, there are 2 things you have to pay attention.
+
+╰┈➤ **Total Spend:** This field shows you how much **money** you've used for **API calls**.
+
+   > The price it costs based on which model you're using. 
+
+╰┈➤ **Chat Completion:** This field shows how many **requests** you've called.
+
+   > Each **request** has different **tokens**. The newer model the more tokens it uses.
+
+ ![image](https://github.com/user-attachments/assets/2362cc7f-2369-45cf-aff5-8b5ad9b26d4f)
+
+## HOW TO USE THE VIRTUAL VOICE ASSISTANT 🚀
+
+### METHOD 1: RUN IN IDE
+
+Open your script on your IDE (VS Code for example) and run the code.
+
+![image](https://github.com/user-attachments/assets/1822223b-6af0-4dab-be00-bd279993a730)
+
+### METHOD 2: RUN IN TERMINAL
+
+Locate the path of your script and run the code.
+
+ > for example: **python code-storage/ai/vva-en.py**
+
+    python path/to/your/script.py
+
+# GIVE A ⭐ IF YOU FIND THIS HELPFUL
+☕ **Buy me a coffee: https://bit.ly/4kjY1TJ**
+
+☀️ **Have a nice day.**
 
 
 
