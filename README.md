@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9b86a2fd-42d9-487b-b992-8d15576f56e3)# OpenAI Virtual Voice Assistant 🔊
+# OpenAI Virtual Voice Assistant 🔊
 My template about OpenAI Agency with Text to speech based on gTTS/OpenAI-TTS.
 
 ![image](https://github.com/user-attachments/assets/c1710208-d6b3-4add-bcf1-24cc749222cb)
@@ -10,7 +10,9 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
 
 ## REQUIREMENT 🛠️
  **╰┈➤ Windows 10/11, MacOS, LinuxOS.**
+
  **╰┈➤ Visual Code Studio (or equivalent IDE).**
+
  **╰┈➤ Python & PIP packages.**
 
 ## INSTALLATION STEPS ⭐
@@ -87,17 +89,20 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
       ![image](https://github.com/user-attachments/assets/2c4d61b9-2f95-41b9-8dc1-bbd0d51374de)
 
      **➤ MODELS & SYSTEM.CONTENT:**
-          - **Models:** choose the model that's suitable for your tasks. **Higher price the more different**. Checkout: https://openai.com/api/pricing/
+       **Models:** choose the model that's suitable for your tasks. **Higher price the more different**. Checkout: https://openai.com/api/pricing
+         
               > for example: if you want to use 'GPT-4.1' model -> model="gpt-4.1"
      
-          - **System.content:** adjust this field to change personality & performance for your assistant.
+       **System.content:** adjust this field to change personality & performance for your assistant.
+     
               > for example: if you want your assistant girly -> "as a helpful and cute girl, help me come up with quick and effective solutions"
 
       ![image](https://github.com/user-attachments/assets/ee1b7af3-a962-4746-8720-bdcb3268d227)
 
-     **➤ VOICES:** options for your assitant's voice. Need to set your "#" like the image below if you want to use OpenAI gen voice and vice versa.
-          - **FREE TEXT-TO-SPEECH:** this choice is using **Google Translate** voice, fast and no cost.
-          - **COST TEXT-TO-SPEECH:** using **OpenAI** gen voice, natural and smooth talk. You can also change the model and type of voice if you want to.
+     **➤ VOICES:** options for your assitant's voice. Need to set your "#" like the image below if you want to use OpenAI gen voice and vice versa. 
+          **FREE TEXT-TO-SPEECH:** this choice is using **Google Translate** voice, fast and no cost.
+          **COST TEXT-TO-SPEECH:** using **OpenAI** gen voice, natural and smooth talk. You can also change the model and type of voice if you want to.
+    
 
       ![image](https://github.com/user-attachments/assets/95f59554-c7bc-493e-b4ef-9fa4c62e8d13)
 
