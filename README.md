@@ -154,7 +154,7 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
         ![image](https://github.com/user-attachments/assets/e203a60d-7ddd-4158-8516-4a90349f3644)
 
 
-### Check how many balance you have used for API
+### Check how much balance you have used for API
 
 **Token:** unit of measure for the amount payable.
 At the **Usage** section, there are 2 things you have to pay attention.
