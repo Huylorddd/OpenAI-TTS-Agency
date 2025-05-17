@@ -19,7 +19,7 @@ while True:
         print("Robot: ...")
 
     try:
-        prompt = robot_ear.recognize_google(audio, language="en-US")
+        prompt = robot_ear.recognize_google(audio, language="vi-VN")
     except:
         prompt = "Tôi không nghe bạn nói. Vui lòng thử lại xem."
         continue
@@ -45,7 +45,7 @@ while True:
     print("Robot: " + robot_brain)
 
   ##### Miễn phí TTS: Giọng Google.
-    #tts = gTTS(text=robot_brain, lang='en')
+    #tts = gTTS(text=robot_brain, lang='vi')
     #tts.save("voice.mp3")
 
   ###### Trả phíphí TTS: Giọng gen AI của openAI.
