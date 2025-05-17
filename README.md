@@ -69,7 +69,7 @@ Welcome to my repository, there are 2 python scripts that was written in en-US a
      
   4. Open **Terminal/Command Prompt** in your computer and run this command to install **PIP**:
      
-         curl https //bootstrap.pypa.io/get-pip.py -o get-pip.py.
+         curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py.
 
   6. Run the **downloaded file**:
      
