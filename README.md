@@ -171,6 +171,28 @@ At the **Usage** section, there are 2 things you have to pay attention.
 
 ## HOW TO USE THE VIRTUAL VOICE ASSISTANT 🚀
 
+### INSTALL REQUIREMENT PACKAGES 📦
+
+1. OpenAI
+  
+       pip install --upgrade openai
+
+2. gtts (google text to speech)
+
+       pip install --upgrade gtts
+
+3. Speech Recognition
+
+       pip install --upgrade speechrecognition
+
+4. PyAudio
+
+       pip install --upgrade pyaudio
+
+5. PyGame
+
+       pip install --pygame
+
 ### METHOD 1: RUN IN IDE
 
 Open your script on your IDE (VS Code for example) and run the code.
